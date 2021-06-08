@@ -1,0 +1,302 @@
+{
+    "fallbackLocale": "en",
+    "languages": {
+        "zh-cn": {
+            "swipe": {
+                "value": "滑动躲避攻击！",
+                "style": {
+                    "fontSize": 114,
+                    "color": "#fffbbd",
+                    "alpha": 1,
+                    "stroke": 12,
+                    "strokeColor": "#dc0015",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#fffbbd",
+                    "endColor": "#ffd445",
+                    "enableGlow": true,
+                    "glowColor": "#bb0000",
+                    "glowBlur": 2.9
+                },
+                "stage": "game"
+            },
+            "Download": {
+                "value": "下载",
+                "style": {
+                    "fontSize": 80,
+                    "color": "#c06800",
+                    "alpha": 1,
+                    "stroke": 8,
+                    "strokeColor": "#ffdf3d",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#c06800",
+                    "endColor": "#945000"
+                },
+                "stage": "ending"
+            },
+            "Retry": {
+                "value": "重玩",
+                "style": {
+                    "fontSize": 80,
+                    "color": "#c06800",
+                    "alpha": 1,
+                    "stroke": 8,
+                    "strokeColor": "#ffdf3d",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#c06800",
+                    "endColor": "#945000"
+                },
+                "stage": "ending"
+            },
+            "tap": {
+                "value": "点击击倒对方！",
+                "style": {
+                    "fontSize": 120,
+                    "color": "#ff0002",
+                    "alpha": 1,
+                    "stroke": 12,
+                    "strokeColor": "#730000",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#ff0002",
+                    "endColor": "#ff9600"
+                },
+                "stage": "game"
+            },
+            "punch": {
+                "value": "挥拳！",
+                "style": {
+                    "fontSize": 70,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "stroke": 12,
+                    "strokeColor": "#cc0000",
+                    "bold": true
+                },
+                "stage": "game"
+            },
+            "you": {
+                "value": "玩家",
+                "style": {
+                    "fontSize": 36,
+                    "color": "#b8001b",
+                    "alpha": 1,
+                    "stroke": 6,
+                    "strokeColor": "#ffffff",
+                    "bold": true
+                },
+                "stage": "game"
+            },
+            "KO": {
+                "value": "K.O.",
+                "style": {
+                    "fontSize": 250,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "ending"
+            }
+        },
+        "ja": {
+            "swipe": {
+                "value": "スワイプして攻撃を防ぐ！",
+                "style": {
+                    "fontSize": 114,
+                    "color": "#fffbbd",
+                    "alpha": 1,
+                    "stroke": 12,
+                    "strokeColor": "#dc0015",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#fffbbd",
+                    "endColor": "#ffd445",
+                    "enableGlow": true,
+                    "glowColor": "#bb0000",
+                    "glowBlur": 2.9
+                },
+                "stage": "game"
+            },
+            "Download": {
+                "value": "ダウンロード",
+                "style": {
+                    "fontSize": 80,
+                    "color": "#c06800",
+                    "alpha": 1,
+                    "stroke": 8,
+                    "strokeColor": "#ffdf3d",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#c06800",
+                    "endColor": "#945000"
+                },
+                "stage": "ending"
+            },
+            "Retry": {
+                "value": "リトライ",
+                "style": {
+                    "fontSize": 80,
+                    "color": "#c06800",
+                    "alpha": 1,
+                    "stroke": 8,
+                    "strokeColor": "#ffdf3d",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#c06800",
+                    "endColor": "#945000"
+                },
+                "stage": "ending"
+            },
+            "tap": {
+                "value": "タップしてノックアウト！",
+                "style": {
+                    "fontSize": 120,
+                    "color": "#ff0002",
+                    "alpha": 1,
+                    "stroke": 12,
+                    "strokeColor": "#730000",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#ff0002",
+                    "endColor": "#ff9600"
+                },
+                "stage": "game"
+            },
+            "punch": {
+                "value": "アタック！",
+                "style": {
+                    "fontSize": 70,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "stroke": 12,
+                    "strokeColor": "#cc0000",
+                    "bold": true
+                },
+                "stage": "game"
+            },
+            "you": {
+                "value": "プレーヤー",
+                "style": {
+                    "fontSize": 36,
+                    "color": "#b8001b",
+                    "alpha": 1,
+                    "stroke": 6,
+                    "strokeColor": "#ffffff",
+                    "bold": true
+                },
+                "stage": "game"
+            },
+            "KO": {
+                "value": "K.O.",
+                "style": {
+                    "fontSize": 250,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "ending"
+            }
+        },
+        "en": {
+            "swipe": {
+                "value": "SWIPE TO\nDODGE!",
+                "style": {
+                    "fontSize": 114,
+                    "color": "#fffbbd",
+                    "alpha": 1,
+                    "stroke": 12,
+                    "strokeColor": "#dc0015",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#fffbbd",
+                    "endColor": "#ffd445",
+                    "enableGlow": true,
+                    "glowColor": "#bb0000",
+                    "glowBlur": 2.9
+                },
+                "stage": "game"
+            },
+            "Download": {
+                "value": "Download",
+                "style": {
+                    "fontSize": 80,
+                    "color": "#c06800",
+                    "alpha": 1,
+                    "stroke": 8,
+                    "strokeColor": "#ffdf3d",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#c06800",
+                    "endColor": "#945000"
+                },
+                "stage": "ending"
+            },
+            "Retry": {
+                "value": "Retry",
+                "style": {
+                    "fontSize": 80,
+                    "color": "#c06800",
+                    "alpha": 1,
+                    "stroke": 8,
+                    "strokeColor": "#ffdf3d",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#c06800",
+                    "endColor": "#945000"
+                },
+                "stage": "ending"
+            },
+            "tap": {
+                "value": "TAP TO KO!",
+                "style": {
+                    "fontSize": 120,
+                    "color": "#ff0002",
+                    "alpha": 1,
+                    "stroke": 12,
+                    "strokeColor": "#730000",
+                    "bold": true,
+                    "gradient": true,
+                    "startColor": "#ff0002",
+                    "endColor": "#ff9600"
+                },
+                "stage": "game"
+            },
+            "punch": {
+                "value": "PUNCH!",
+                "style": {
+                    "fontSize": 70,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "stroke": 12,
+                    "strokeColor": "#cc0000",
+                    "bold": true
+                },
+                "stage": "game"
+            },
+            "you": {
+                "value": "YOU",
+                "style": {
+                    "fontSize": 36,
+                    "color": "#b8001b",
+                    "alpha": 1,
+                    "stroke": 6,
+                    "strokeColor": "#ffffff",
+                    "bold": true
+                },
+                "stage": "game"
+            },
+            "KO": {
+                "value": "K.O.",
+                "style": {
+                    "fontSize": 250,
+                    "color": "#ffffff",
+                    "alpha": 1,
+                    "bold": true
+                },
+                "stage": "ending"
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+// EndingSmart公共样式
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: SimHei Arial SimSun Micrasoft YaHei Helvetica;
+}
+*[class="language-"] {
+  text-align: center;
+}
+
+*[data-before] {
+  text-align: center;
+  z-index: unset !important;
+  background-clip: text;
+  position: relative;
+}
+
+*[data-before]::before {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: -10 !important;
+}
+
+#endingContainer {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2000;
+}
+// 下载按钮,试玩按钮
+.es-ctat {
+  width: 620px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+
+  .es-ctat-text {
+    width: 620px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+  }
+}
+// 垂直水平居中布局
+.es-center-layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+// 背景图
+.es-pb-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+}

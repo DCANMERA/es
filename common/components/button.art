@@ -1,0 +1,6 @@
+<div
+  class="es-ctat {{className ? className : ''}}"
+  style="background-image: url({{getAssestByUrl ? getAssestByUrl(path) : path}});"
+>
+  <div class="es-ctat-text">{{msg}}</div>
+</div>

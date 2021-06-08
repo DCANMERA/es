@@ -1,0 +1,21 @@
+#endingContainer {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2000;
+}
+
+.logo {
+  width: 274px;
+  height: 184px;
+  background-size: contain;
+  transform: translateY(-250px);
+}
+
+.ctat-btn {
+  transform: translateY(250px);
+}
